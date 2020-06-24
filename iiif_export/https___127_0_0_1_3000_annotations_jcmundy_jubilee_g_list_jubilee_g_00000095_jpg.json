@@ -1,0 +1,197 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://127.0.0.1:3000/annotations/jcmundy/jubilee-g/list/jubilee-g_00000095.jpg",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "da462565-0a2c-47ba-b4c0-1209bc0f3260",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>A name</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://127.0.0.1:3000/iiif/v2/jubilee-g/canvas/jubilee-g_00000095.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://127.0.0.1:3000/iiif/v2/jubilee-g/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=619,791,203,51",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='07991e3c-a186-4235-8c62-a6f915ea47c5']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 1
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='17988c43-5cc8-4d1d-8699-0fc6f6dba04e']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-da462565-0a2c-47ba-b4c0-1209bc0f3260 { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "79eb8877-8da2-48ae-b630-3f470f8711db",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>U!</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://127.0.0.1:3000/iiif/v2/jubilee-g/canvas/jubilee-g_00000095.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://127.0.0.1:3000/iiif/v2/jubilee-g/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=836,295,299,135",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M879.32417,314.23121c27.63468,-11.2996 66.61786,-19.71403 105.78996,-19.70398v0v0c39.1721,0.01005 73.29757,7.88162 105.78996,19.70398c32.49239,11.82236 45.12178,29.83736 43.81964,47.56961c-1.30214,17.73225 -16.5358,35.18176 -43.81964,47.56961c-27.28384,12.38785 -66.61786,19.71403 -105.78996,19.70398c-39.1721,-0.01005 -78.18227,-7.35634 -105.78996,-19.70398c-27.60769,-12.34763 -43.81289,-29.69661 -43.81964,-47.56961c-0.00675,-17.873 16.18496,-36.27001 43.81964,-47.56961z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_9e06e1c6-82a6-47be-a870-215a1eb32dda\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=836,295,299,135"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "6c5929de-88c9-476a-996d-3416116cf51a",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>blank</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://127.0.0.1:3000/iiif/v2/jubilee-g/canvas/jubilee-g_00000095.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://127.0.0.1:3000/iiif/v2/jubilee-g/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=99,390,39,59",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M118.72255,448.41386c0,-13.01448 6.50724,-26.02896 19.52172,-39.04344c0,-10.78155 -8.74017,-19.52172 -19.52172,-19.52172c-10.78155,0 -19.52172,8.74017 -19.52172,19.52172c13.01448,13.01448 19.52172,26.02896 19.52172,39.04344z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_508ccc5e-989a-4542-96e7-4bd7e004907f\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=99,390,39,59"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "3d92c564-73de-49ca-a0a6-f71535b7c7f2",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>wiggle</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://127.0.0.1:3000/iiif/v2/jubilee-g/canvas/jubilee-g_00000095.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://127.0.0.1:3000/iiif/v2/jubilee-g/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=94,822,248,438",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M95.29649,1194.14348c0,-50.75647 0,-101.51293 0,-152.2694c0,-35.13909 -2.80217,-70.39009 0,-105.41728c1.46773,-18.34664 5.07844,-36.45919 7.80869,-54.66081c2.57388,-17.15921 8.30895,-50.4131 27.33041,-58.56515c4.78488,-2.05066 10.41158,0 15.61737,0c3.90434,0 8.40215,-2.0693 11.71303,0c7.80381,4.87738 12.49656,13.57735 19.52172,19.52172c26.52308,22.44261 62.45119,40.27028 81.99122,70.27818c27.66,42.47786 51.05198,87.64312 74.18253,132.74768c5.5219,10.7677 7.80869,38.04596 7.80869,50.75647c0,2.6029 1.84053,5.96816 0,7.80869c-0.92026,0.92026 -2.98408,-0.92026 -3.90434,0c-0.92026,0.92026 0.58203,2.74029 0,3.90434c-0.82311,1.64622 -3.08124,2.25813 -3.90434,3.90434c-0.58203,1.16405 0.72191,2.82147 0,3.90434c-5.63832,8.45749 -13.42294,15.29436 -19.52172,23.42606c-21.40019,28.53359 -43.01734,58.62478 -70.27818,81.99122c-3.56276,3.0538 -8.1082,4.80466 -11.71303,7.80869c-4.24179,3.53483 -7.1188,8.65021 -11.71303,11.71303c-0.69434,0.46289 -22.99591,7.37854 -23.42606,7.80869c-0.39043,0.39043 0,11.71303 0,11.71303c0,0 0,-5.20579 0,-7.80869\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;deleteIcon&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_bdd30b15-3a98-48e1-a206-3974af7a74bd\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=94,822,248,438"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "d8a18f1e-6e77-4787-8cde-a3d6746c1b80",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>Progress</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://127.0.0.1:3000/iiif/v2/jubilee-g/canvas/jubilee-g_00000095.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://127.0.0.1:3000/iiif/v2/jubilee-g/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=402,304,251,111",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M401.93485,303.7101h125.74378v0h125.74378v55.46559v55.46559h-125.74378h-125.74378v-55.46559z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9b871d6b-9561-4749-9582-36cda8fc95b4\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=402,304,251,111"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
